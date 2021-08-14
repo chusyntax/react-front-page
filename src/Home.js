@@ -2,9 +2,26 @@ import styles from './Home.module.css';
 
 function Home() {
     return (
-   <div className="page">
-     <h1>Hello world!</h1>
-   </div>
+      <section>
+<div className={styles.home}>
+
+<div className={styles.intro}>
+    <h1>Hello World</h1>
+    <h2>I'm Thabo Theko</h2>
+    <h3>A Front-end Web Developer</h3>
+</div>
+
+<div className={styles.buttons}>
+    <button>Download Resume</button>
+    <button>View Projects</button>
+</div>
+
+
+</div>
+
+      </section>
+   
+   
     );
   }
   
