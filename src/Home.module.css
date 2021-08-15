@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
 
 .home{
-    width:100%;
     height:100vh;
+    width:100%;
     display:grid;
     grid-template-columns:1fr 1fr;
     font-family: 'Atkinson Hyperlegible', sans-serif;

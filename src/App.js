@@ -1,9 +1,14 @@
 import Home from './Home'
 import './App.css';
+import ParticleBackground from './ParticleBackground';
 
 function App() {
   return (
- <Home/>
+    <div>
+    <ParticleBackground/>
+    <Home/>
+
+ </div>
   );
 }
 
